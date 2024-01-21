@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Build/Distribution
+dist/
+build/
+out/
+
+# Visual Studio Code settings
+.vscode/
+
+# Coverage reports
+coverage/
