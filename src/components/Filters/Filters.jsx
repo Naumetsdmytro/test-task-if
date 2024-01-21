@@ -1,6 +1,6 @@
-// Filters.js
 import React from "react";
 import styled from "styled-components";
+
 import { SearchBar } from "../SearchBar";
 import { SortSelect } from "../SortSelect";
 import { FilterRange } from "components/FilterRange";

@@ -1,7 +1,8 @@
-import { setSearchText } from "redux/filter/filterSlice";
-import { selectSearchTextValue } from "redux/filter/selectors";
 import { useSelector, useDispatch } from "react-redux";
 import styled from "styled-components";
+
+import { setSearchText } from "redux/filter/filterSlice";
+import { selectSearchTextValue } from "redux/filter/selectors";
 
 const SearchBarInput = styled.input`
   display: block;

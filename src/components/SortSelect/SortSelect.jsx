@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
+
 import { setSortBy } from "../../redux/filter/filterSlice";
 import { selectSortValue } from "redux/filter/selectors";
 import arrowImage from "../../images/arrow-down.png";
